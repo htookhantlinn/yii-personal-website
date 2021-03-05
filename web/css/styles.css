@@ -10118,8 +10118,13 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
+<<<<<<< HEAD
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
+=======
+  color: Yellow;
+  background-image: url("../assets/img/minimal.jpg");
+>>>>>>> parent of 10917a8... after revert
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

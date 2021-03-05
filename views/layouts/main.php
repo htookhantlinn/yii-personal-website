@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use app\widgets\Alert;
@@ -26,17 +27,19 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
+<<<<<<< HEAD
 <div class="wrap">
 
+=======
+>>>>>>> parent of 10917a8... after revert
 
-    <div class="container">
+
+
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
-    </div>
-</div>
 
 
 
