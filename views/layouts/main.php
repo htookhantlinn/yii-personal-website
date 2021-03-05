@@ -27,22 +27,12 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<<<<<<< HEAD
 <div class="wrap">
-
-=======
->>>>>>> parent of 10917a8... after revert
-
-
-
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
-
-
-
 <?php $this->endBody() ?>
 </body>
 </html>

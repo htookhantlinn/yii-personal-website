@@ -245,7 +245,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/pro_pic.jpg" alt="" />
+                    <img class="mx-auto rounded-circle" src="/theme/assets/img/pro_pic.jpg" alt="" />
                     <h4>Htoo Khant Linn</h4>
                     <p class="text-muted">Software Developer</p>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
