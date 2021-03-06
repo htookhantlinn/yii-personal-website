@@ -59,8 +59,12 @@ use yii\helpers\Html;
                                     href="https://www.ucsy.edu.mm" style="color: white">University of Computer
                                 Studies,Yangon.</a></p></div>
                     <div align="center">
-                        <button type="button" class="btn btn-outline-light btn-lg">Download My CV</button>
-                        <?= Html::a('Download Application', '../docs/Htoo_Khant_Linn_CV.pdf', ['target' => '_blank', 'class' => 'box_button fl download_link']) ?>
+                        <button type="button" class="btn btn-outline-light btn-lg">
+                            <?= Html::a('View CV', '../docs/Htoo_Khant_Linn_CV.pdf', ['target' => '_blank', 'class' => 'box_button fl download_link']) ?>
+                        </button>
+                        <button type="button" class="btn btn-outline-success btn-lg">
+                            <a href="../docs/Htoo_Khant_Linn_CV.pdf" download="Htoo_Khant_Linn_CV">Download CV</a>
+                        </button>
 
                     </div>
                 </div>
