@@ -55,9 +55,18 @@ use yii\helpers\Html;
             <div class="col-lg-8">
                 <div class="team-member">
                     <h3 style="color: yellow">Biography</h3>
-                    <div align="left"><p style="font-size: medium; color: white">Hey, I'm third year student at <a
-                                    href="https://www.ucsy.edu.mm" style="color: white">University of Computer
-                                Studies,Yangon.</a></p></div>
+                    <div align="left">
+                        <p style="font-size: medium; color: white">
+
+
+                            I’m software developer and currently living in Yangon, Myanmar. I’m trying to get Bachelor
+                            of Science in Computer Science degree from
+                            <a href="https://www.ucsy.edu.mm" style="color: white">
+                                University of Computer Studies, Yangon.</a>
+                            I am very passionate about Web Development, and strive to better myself as a developer, and the
+                            development community as a whole.
+                        </p>
+                    </div>
                     <div align="center">
                         <button type="button" class="btn btn-outline-light btn-lg">
                             <?= Html::a('View CV', '../docs/Htoo_Khant_Linn_CV.pdf', ['target' => '_blank', 'class' => 'box_button fl download_link']) ?>
