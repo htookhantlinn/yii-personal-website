@@ -58,8 +58,7 @@ use yii\helpers\Html;
                     <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
 
-                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get Bachelor
-                            of  Computer Science degree from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
+                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the degree of Bachelor of Computer Science from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
                             . " I am very passionate about Web Development,Mobile Development,Software Engineering and strive to better myself as a <br/>full-stack developer, and
                             the
                             development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
