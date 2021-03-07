@@ -42,8 +42,9 @@ use yii\helpers\Html;
             <div class="col-lg-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="/theme/assets/img/pro_pic.jpg" alt=""/>
-                    <h3 style="color: yellow">Htoo Khant Linn</h3>
-                    <p class="text-muted" style="font-size: medium">Software Developer</p>
+                    <?= Html::tag('h3', Html::encode("Htoo Khant Linn"), ['style' => 'color: yellow']) ?>
+                    <?= Html::tag('p', Html::encode("Software Developer"), ['class' => 'text-muted', 'style' => 'font-size: medium']) ?>
+
                     <a class="btn btn-light btn-social mx-2" href="https://twitter.com/HtooKha52472124"><i
                                 class="fab fa-twitter"></i></a>
                     <a class="btn btn-light btn-social mx-2" href="https://www.facebook.com/htookhntlin/"><i
@@ -54,18 +55,15 @@ use yii\helpers\Html;
             </div>
             <div class="col-lg-8">
                 <div class="team-member">
-                    <h3 style="color: yellow">Biography</h3>
+                    <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
-                        <p style="font-size: medium; color: white">
 
+                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get Bachelor
+                            of  Computer Science degree from") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
+                            . " I am very passionate about Web Development,Mobile Development,Software Engineering and strive to better myself as a full-stack developer, and
+                            the
+                            development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
 
-                            I’m software developer and currently living in Yangon, Myanmar. I’m trying to get Bachelor
-                            of Science in Computer Science degree from
-                            <a href="https://www.ucsy.edu.mm" style="color: white">
-                                University of Computer Studies, Yangon.</a>
-                            I am very passionate about Web Development, and strive to better myself as a developer, and the
-                            development community as a whole.
-                        </p>
                     </div>
                     <div align="center">
                         <button type="button" class="btn btn-outline-light btn-lg">
