@@ -22,6 +22,8 @@ $this->title = 'Htoo Khant Linn';
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
+    <LINK REL="SHORTCUT ICON"
+          HREF="/theme/assets/img/pro_pic.jpg">
 </head>
 <body id="page-top" class="bg-dark">
 
