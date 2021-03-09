@@ -72,7 +72,7 @@ use yii\helpers\Html;
                             <a href="../docs/Htoo_Khant_Linn_CV.pdf" download="Htoo_Khant_Linn_CV">Download CV</a>
                         </button>
                         <div align="right">
-                           <h3><a href="mailto: htookhntlin@gmail.com"> Me</a></h3>
+                           <h3><a href="mailto: htookhntlin@gmail.com">Contact Me</a></h3>
                         </div>
                     </div>
                 </div>
