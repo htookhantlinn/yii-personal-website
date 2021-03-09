@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-
+$this->title = 'Htoo Khant Linn';
 ?>
 
 <!DOCTYPE html>
