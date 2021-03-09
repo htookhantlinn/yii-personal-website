@@ -22,6 +22,8 @@ $this->title = 'Htoo Khant Linn';
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
 
+    <link rel="shortcut icon" href="favicon.ico">
+
 </head>
 <body id="page-top" class="bg-dark">
 
