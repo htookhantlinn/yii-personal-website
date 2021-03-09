@@ -22,8 +22,7 @@ $this->title = 'Htoo Khant Linn';
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
-    <LINK REL="SHORTCUT ICON"
-          HREF="/theme/assets/img/pro_pic.jpg">
+
 </head>
 <body id="page-top" class="bg-dark">
 
@@ -62,7 +61,7 @@ $this->title = 'Htoo Khant Linn';
                     <div align="left">
 
                         <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the degree of Bachelor of Computer Science from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
-                            . " I am very passionate about Web Development,Mobile Development,Software Engineering and strive to better myself as a <br/>full-stack developer, and
+                            . " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a <br/>full-stack developer, and
                             the
                             development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
 
