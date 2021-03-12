@@ -1,7 +1,6 @@
 <?php
 
 use yii\helpers\Html;
-
 $this->title = 'Htoo Khant Linn';
 ?>
 
@@ -58,9 +57,10 @@ $this->title = 'Htoo Khant Linn';
                 <div class="team-member">
                     <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
-                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the Bachelor of Computer Science degree from  University of Computer Studies, Yangon I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
+                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the Bachelor of Computer Science degree from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
+                            . " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
                             the
-                            development community as a whole.", ['style' => 'font-size: medium; color: white'])) ?>
+                            development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
                     </div>
                     <div align="center">
                         <button type="button" class="btn btn-outline-light btn-lg" disabled>View CV
@@ -69,7 +69,7 @@ $this->title = 'Htoo Khant Linn';
                             <!--<a href="../docs/Htoo_Khant_Linn_CV.pdf" download="Htoo_Khant_Linn_CV">Download CV</a>-->
                         </button>
                         <div align="right">
-                            <h3><a href="mailto: htookhntlin@gmail.com">Contact Me</a></h3>
+                           <h3><a href="mailto: htookhntlin@gmail.com">Contact Me</a></h3>
                         </div>
                     </div>
                 </div>
