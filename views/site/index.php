@@ -42,7 +42,7 @@ $this->title = 'Htoo Khant Linn';
         <div class="row">
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="../img/pro_pic.jpg" alt=""/>
+                    <img  class="mx-auto rounded-circle"  alt=""/>
                     <?= Html::tag('h3', Html::encode("Htoo Khant Linn"), ['style' => 'color: yellow']) ?>
                     <?= Html::tag('p', Html::encode("Software Developer"), ['class' => 'text-muted', 'style' => 'font-size: medium']) ?>
                     <a class="btn btn-light btn-social mx-2" href="https://twitter.com/HtooKha52472124"><i
