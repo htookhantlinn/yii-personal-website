@@ -57,8 +57,7 @@ $this->title = 'Htoo Khant Linn';
                 <div class="team-member">
                     <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
-                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the Bachelor of Computer Science degree from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
-                            . " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
+                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the Bachelor of Computer Science degree from  UCSY") .  " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
                             the
                             development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
                     </div>
