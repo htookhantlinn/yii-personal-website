@@ -21,9 +21,6 @@ $this->title = 'Htoo Khant Linn';
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
-
-    <link rel="shortcut icon" href="pro_pic.ico">
-
 </head>
 <body id="page-top" class="bg-dark">
 
@@ -47,7 +44,6 @@ $this->title = 'Htoo Khant Linn';
                     <img class="mx-auto rounded-circle" src="/theme/assets/img/pro_pic.jpg" alt=""/>
                     <?= Html::tag('h3', Html::encode("Htoo Khant Linn"), ['style' => 'color: yellow']) ?>
                     <?= Html::tag('p', Html::encode("Software Developer"), ['class' => 'text-muted', 'style' => 'font-size: medium']) ?>
-
                     <a class="btn btn-light btn-social mx-2" href="https://twitter.com/HtooKha52472124"><i
                                 class="fab fa-twitter"></i></a>
                     <a class="btn btn-light btn-social mx-2" href="https://www.facebook.com/htookhntlin/"><i
@@ -60,12 +56,10 @@ $this->title = 'Htoo Khant Linn';
                 <div class="team-member">
                     <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
-
                         <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the degree of Bachelor of Computer Science from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
                             . " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
                             the
                             development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
-
                     </div>
                     <div align="center">
                         <button type="button" class="btn btn-outline-light btn-lg">
