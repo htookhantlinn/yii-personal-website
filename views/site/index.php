@@ -57,17 +57,17 @@ $this->title = 'Htoo Khant Linn';
                 <div class="team-member">
                     <?= Html::tag('h3', Html::encode("Biography"), ['style' => 'color: yellow']) ?>
                     <div align="left">
-                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the degree of Bachelor of Computer Science from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
+                        <?= Html::tag('p', Html::encode("I’m software developer and currently living in Yangon, Myanmar. I’m trying to get the Bachelor of Computer Science degree from  ") . Html::a('University of Computer Studies, Yangon.', ['https://www.ucsy.edu.mm'], ['style' => 'color: white'])
                             . " I am very passionate about Web Development, Mobile Development, Software Engineering and strive to better myself as a full-stack developer, and
                             the
                             development community as a whole.", ['style' => 'font-size: medium; color: white']) ?>
                     </div>
                     <div align="center">
-                        <button type="button" class="btn btn-outline-light btn-lg">
-                            <?= Html::a('View CV', '../docs/Htoo_Khant_Linn_CV.pdf', ['target' => '_blank', 'class' => 'box_button fl download_link']) ?>
+                        <button type="button" class="btn btn-outline-light btn-lg" disabled>View CV
+<!--                            --><?/*= Html::a('View CV', '../docs/Htoo_Khant_Linn_CV.pdf', ['target' => '_blank', 'class' => 'box_button fl download_link']) */?>
                         </button>
-                        <button type="button" class="btn btn-outline-success btn-lg">
-                            <a href="../docs/Htoo_Khant_Linn_CV.pdf" download="Htoo_Khant_Linn_CV">Download CV</a>
+                        <button type="button" class="btn btn-outline-success btn-lg" disabled>Download CV
+                            <!--<a href="../docs/Htoo_Khant_Linn_CV.pdf" download="Htoo_Khant_Linn_CV">Download CV</a>-->
                         </button>
                         <div align="right">
                            <h3><a href="mailto: htookhntlin@gmail.com">Contact Me</a></h3>
