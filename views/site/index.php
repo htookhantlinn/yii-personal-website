@@ -28,7 +28,7 @@ $this->title = 'Htoo Khant Linn';
 <!-- Masthead-->
 <header class="masthead">
     <div class="container">
-        <?= Html::tag('div', Html::encode("Hello I'm Htoo Khant Linn"), ['class' => 'masthead-subheading']) ?>
+        <?= Html::tag('div', Html::encode("Hello I'm Htoo Khant "), ['class' => 'masthead-subheading']) ?>
         <?= Html::tag('div', Html::encode("Nice To Meet You"), ['class' => 'masthead-heading text-uppercase']) ?>
     </div>
 </header>
