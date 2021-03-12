@@ -21,7 +21,7 @@ $this->title = 'Htoo Khant Linn';
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
 
-    <link rel="icon" type="image/x-icon" href="assets/img/hkl.ico" />
+    <link rel="icon" type="image/x-icon" href="/theme/assets/img/hkl.ico" />
 
 </head>
 <body id="page-top" class="bg-dark">
